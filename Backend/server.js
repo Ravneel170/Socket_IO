@@ -20,7 +20,7 @@ const mongoose = require('mongoose');
 
 app.use(cors({
 
-  origin: 'http://localhost:5173',
+  origin: 'http://localhost:5173',  //front-end link works;
 
   methods: ['GET', 'POST']
 }));
